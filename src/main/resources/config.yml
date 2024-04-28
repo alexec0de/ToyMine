@@ -1,0 +1,96 @@
+# dev by alexec0de
+
+mine:
+  end:
+    default:
+      - END_STONE;80
+      - OBSIDIAN;50
+      - PURPLE_GLAZED_TERRACOTTA;40
+      - PURPUR_BLOCK;45
+    rare:
+      - END_STONE;65
+      - OBSIDIAN;65
+      - PURPLE_GLAZED_TERRACOTTA;50
+      - PURPUR_BLOCK;55
+    epic:
+      - END_STONE;50
+      - OBSIDIAN;75
+      - PURPLE_GLAZED_TERRACOTTA;70
+      - PURPUR_BLOCK;75
+  default:
+    default:
+      - STONE;50
+      - GOLD_ORE;45
+      - LAPIS_ORE;60
+      - DIAMOND_ORE;25
+      - REDSTONE_ORE;70
+      - COAL_ORE;80
+      - IRON_ORE;65
+    rare:
+      - STONE;30
+      - GOLD_ORE;65
+      - LAPIS_ORE;80
+      - DIAMOND_ORE;45
+      - REDSTONE_ORE;50
+      - COAL_ORE;60
+      - IRON_ORE;85
+    epic:
+      - STONE;10
+      - GOLD_ORE;85
+      - LAPIS_ORE;20
+      - DIAMOND_ORE;65
+      - REDSTONE_ORE;30
+      - COAL_ORE;30
+      - IRON_ORE;25
+      - ANCIENT_DEBRIS;30
+  nether:
+    default:
+      - ANCIENT_DEBRIS;15
+      - NETHER_GOLD_ORE;55
+      - NETHER_QUARTZ_ORE;60
+      - NETHERRACK;75
+    rare:
+      - ANCIENT_DEBRIS;35
+      - NETHER_GOLD_ORE;65
+      - NETHER_QUARTZ_ORE;45
+      - NETHERRACK;55
+    epic:
+      - ANCIENT_DEBRIS;55
+      - NETHER_GOLD_ORE;70
+      - NETHER_QUARTZ_ORE;45
+
+minePos:
+  pos1:
+    x: 89
+    y: 61
+    z: -71
+  pos2:
+    x: 79
+    y: 71
+    z: -60
+  world: spawn
+
+mineWord:
+  end: "&#af17ffЭнд"
+  nether: "&#fb1321А&#fb1321д"
+  default: "&#3bfbfbВ&#4afbfbе&#59fcfcр&#68fcfcх&#77fdfdи&#86fdfdй"
+
+mineType:
+  default: "&#9edeffО&#94e0ffб&#8ae1ffы&#80e3ffч&#8ae1ffн&#94e0ffа&#9edeffя"
+  rare: "&#67ff17Р&#7eff19е&#95ff1cд&#95ff1cк&#7eff19а&#67ff17я"
+  epic: "&#9edeffО&#94e0ffб&#8ae1ffы&#80e3ffч&#8ae1ffн&#94e0ffа&#9edeffя"
+
+settings:
+  autoUpdate: 2 #в минутах
+
+hologram:
+  x: 76.5
+  y: 74
+  z: -56.5
+  world: spawn
+  lines:
+    - "АвтоШахта"
+    - "Обновление через: {timeAutoUpdate}"
+    - "Мир: {mineWorld}"
+    - "Редкость: {mineType}"
+

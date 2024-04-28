@@ -1,0 +1,7 @@
+name: ToyMine
+version: '1.0'
+main: ru.alexec0de.ToyMine
+api-version: '1.16'
+softdepend: [MultiverseCore, HolographicDisplays]
+commands:
+  mine: {}

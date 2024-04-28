@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ToyMine:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ToyMine_jar</output-path>
+    <root id="archive" name="ToyMine.jar">
+      <element id="module-output" name="ToyMine" />
+    </root>
+  </artifact>
+</component>
